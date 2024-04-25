@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>iChat - Realtime Node Socket.io Chat app</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/clint.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+          <!-- <img class="logo" src="img.png" alt="Chat App Logo"> -->
+          <h1>Welcome to iChat Room</h1>
+      </div>
+  </header>
+
+  <div class="container">
+      <!-- Messages will be dynamically added here -->
+  </div>
+
+  <div class="send-container">
+      <form id="messageForm">
+          <input id="messageInput" type="text" name="message" placeholder="Type your message..." required>
+          <button type="submit" class="send-button">Send</button>
+      </form>
+  </div>
+
+  </body>
+</html>
